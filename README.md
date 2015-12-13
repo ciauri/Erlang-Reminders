@@ -20,3 +20,6 @@ SupPid = sup:start(evserv,[]). # Start the supervisor and event server
 exit(whereis(evserv),die). # Kill the event server to test the supervisor
 exit(whereis(sup),die). # Kill the supervisor and notice that all children are also killed
 ```
+
+## Source
+http://learnyousomeerlang.com/designing-a-concurrent-application
